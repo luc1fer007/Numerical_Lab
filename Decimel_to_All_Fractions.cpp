@@ -9,7 +9,7 @@ string convert(double num, int base, int presicion)
     string res = "";
     do
     {
-        res = chars[intprt % base] + res;
+        res += chars[intprt % base]
         intprt /= base;
     }
     while(intprt > 0);
