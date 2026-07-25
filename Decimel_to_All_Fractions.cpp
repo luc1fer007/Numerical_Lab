@@ -13,6 +13,7 @@ string convert(double num, int base, int presicion)
         intprt /= base;
     }
     while(intprt > 0);
+    reverse(res.begin(),res.end());
     if(fracprt > 0) res += ".";
     while(presicion --> 0 && fracprt > 0)
     {
