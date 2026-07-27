@@ -1,13 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 const double TOL = 1e-5;
-double gx(double x,double y)
+double gx(double x, double y)
 {
-    return sqrt(5-y);
+    return sqrt(10 - y * y);
 }
+
 double gy(double x, double y)
 {
-    return 5 - x*x;
+    return x - 1.0;
 }
 int main()
 {
@@ -28,3 +29,4 @@ int main()
     cout << "Roots --> x : " << x1 <<  ", y: " << y1 << endl;
     return 0;
 }
+// 1 1
