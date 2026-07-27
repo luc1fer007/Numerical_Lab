@@ -17,7 +17,7 @@ int main()
     x1 = gx(x0,y0);
     y1 = gy(x0,y0);
     int i = 1;
-    while((abs(x0 - x1) > TOL || abs(y0 - y1)) > TOL && i < 100)
+    while(((fabs(x0 - x1) > TOL) || (fabs(y0 - y1) > TOL)) && i < 100)
     {
         cout << "Iteration: " << i << "| x: " << x1 << "| y: " << y1 << endl;
         x0 = x1;
