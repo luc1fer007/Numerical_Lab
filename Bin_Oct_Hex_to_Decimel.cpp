@@ -10,7 +10,7 @@ int main()
     string num;
     int base;
     double decimel = 0;
-    cout << "Enter Number and the base (2, 8, 16): "
+    cout << "Enter Number and the base (2, 8, 16): ";
          cin >> num >> base;
     int point = num.find('.');
     // If the num doesn't have any fractions
